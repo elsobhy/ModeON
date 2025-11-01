@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ModeOn</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="ModeOn Logo" />
+        <span>ModeOn</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="#clothes">Clothes</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <div class="contact">
+        <i class="fas fa-phone"></i>
+        <span>Call us: +201142751395</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Search & Cart Bar -->
+  <div class="search-bar">
+    <div class="container">
+      <select class="category-select">
+        <option value="/index.html">All Categories</option>
+        <option value="man-cloth">Man Collection</option>
+        <option value="woman-cloth">Woman Collection</option>
+      </select>
+      <input type="text" placeholder="Search for your product here..." class="search-input" />
+      <button class="search-btn"><i class="fas fa-search"></i></button>
+      <div class="cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-amount">$0.00</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Banner -->
+  <div class="banner">
+    <!-- video -->
+    <video class="banner-bg" autoplay muted loop playsinline>
+      <source src="videos/bunnerBg1.mp4" type="video/mp4">
+      <source src="videos/fashion-banner.webm" type="video/webm">
+      <!-- Fallback for old website-->
+      <img src="images/bunnerHome.png" alt="ModeOn Banner">
+    </video>
+
+    <!-- content above video-->
+    <div class="banner-content">
+      <p class="banner-subtitle">WELCOME TO OUR FASHION WORLD</p>
+      <h1 class="banner-title">ModeOn</h1>
+      <p class="banner-offer">new arrivals now up to 50% off</p>
+      <a href="#photoes" class="banner-btn">SHOP NOW</a>
+    </div>
+  </div>
+
+  <!-- Features Bar -->
+  <section class="features-bar">
+    <div class="container">
+      <div class="feature-item">
+        <i class="fas fa-truck"></i>
+        <div class="feature-text">
+          <h4>Free Shopping</h4>
+          <p>Enjoy free delivery on all orders above $200.</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <i class="fas fa-headset"></i>
+        <div class="feature-text">
+          <h4>Support 24/7</h4>
+          <p>Our team is here to help you anytime, anywhere.</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <i class="fas fa-dollar-sign"></i>
+        <div class="feature-text">
+          <h4>Money Return</h4>
+          <p>15-day money-back guarantee, no questions asked.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="photoes">
+    <h2>New Arrivals</h2>
+    <div class="photoes-grid">
+      <div class="photo-card"><img src="images/jac.jpg">
+        <h3>Winter Jacket</h3>
+        <p>$85</p><button>Add to Cart</button>
+      </div>
+      <div class="photo-card"><img src="images/jeans.jpg">
+        <h3>Baby Blue Jeans</h3>
+        <p>$60</p><button>Add to Cart</button>
+      </div>
+      <div class="photo-card"><img src="images/shoes2.jpg">
+        <h3>White Sneakers</h3>
+        <p>$80</p><button>Add to Cart</button>
+      </div>
+      <div class="photo-card"><img src="images/j6.jpeg">
+        <h3>Winter Jacket</h3>
+        <p>$85</p><button>Add to Cart</button>
+      </div>
+      <div class="photo-card"><img src="images/p1.jpeg">
+        <h3>Blue Jeans</h3>
+        <p>$60</p><button>Add to Cart</button>
+      </div>
+      <div class="photo-card"><img src="images/sh1.jpeg">
+        <h3>White Sneakers</h3>
+        <p>$80</p><button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dual Hero Section -->
+  <div id="clothes">
+    <section class="dual-hero">
+      <div class="container">
+
+        <div id="man-cloth">
+          <div class="hero-card">
+            <div class="hero-content">
+              <p class="small-text"><b>—— Stylish ——</b></p>
+              <h1>Male Clothes</h1>
+              <p class="compatibility">30% off Winter Collection</p>
+              <a href="man.html" class="shop-now">shop now</a>
+            </div>
+            <div class="hero-image">
+              <img src="images/mensProduct.jpg" alt="Male Winter">
+            </div>
+          </div>
+        </div>
+
+        <div id="woman-cloth">
+          <div class="hero-card reverse">
+            <div class="hero-image">
+              <img src="images/womenProduct.jpg" alt="Female Summer">
+            </div>
+            <div class="hero-content">
+              <p class="small-text"><b>—— Trendy ——</b></p>
+              <h1>Female Clothes</h1>
+              <p class="compatibility">25% off Summer Collection</p>
+              <a href="woman.html" class="shop-now">shop now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>ModeOn</h3>
+        <p>Discover the latest fashion trends<br> at unbeatable prices</p>
+      </div>
+      <div class="footer-section">
+        <h3>Our Regions</h3>
+        <ul>
+          <li>Egypt</li>
+          <li>England</li>
+          <li>Poland</li>
+          <li>Canada</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Help Center</h3>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
